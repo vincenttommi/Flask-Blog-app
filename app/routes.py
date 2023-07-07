@@ -26,6 +26,14 @@ def index():
         {
         'author':{'username':'simon mwanngi'},
         'body':'I love coding in python and Flask'
+        },
+        {
+            'author':{'username':'korir'},
+            'body':'you need a loving a girl to father'
+        },
+        {
+            'author':{'username':'calvin'},
+            'body':'you are a good frontend engineer Men'
         }
     ]
     return  render_template('index.html', title='Home', user=user,posts=posts)
